@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="js/script.js">
+    </script>
+</body>
+</html>
+
+
+function criarAluno(name, n1, n2){
+
+    this.nome = name,
+    this.nota1 = n1,
+    this.nota2 = n2,
+    this.media = function(){
+        return (this.nota1 + this.nota2) / 2  
+    }
+}
+
+var turma = [
+new criarAluno("Lucas", 10, 10),
+new criarAluno("Joao", 9, 7.5),
+new criarAluno("Jose", 6, 8),
+new criarAluno("Matheus", 9, 7.5)
+]

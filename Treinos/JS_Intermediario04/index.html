@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p {
+            display: inline-block;
+        }
+
+        h2 {
+            margin-top: 100px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Se increva:</h1>
+
+    <div id="campoNome">
+        <p>Nome:</p>
+        <input type="text" id="name">
+
+    </div>
+    <br>
+    <div id="campoNumero">
+        <p>Numero:</p>
+        <input type="number" id="number">
+
+    </div>
+    <br>
+
+    <input type="submit" value="Registrar" onclick="registrarPessoa()">
+
+
+    <h2>O vencedor foi: </h2>
+    <h3 id="resultado"></h3>
+    <input type="submit" value="Sortear" onclick="sortear()">
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
