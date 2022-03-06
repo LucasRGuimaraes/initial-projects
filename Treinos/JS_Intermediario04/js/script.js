@@ -14,6 +14,7 @@ function registrarPessoa() {
     }
 }
 
+
 function validadorRegistro(name, number) {
     if (name && number) {
         if (participantes.find(item => item.numero === number)) {
