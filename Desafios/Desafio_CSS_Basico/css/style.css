@@ -7,7 +7,7 @@ section{
     height: 200px;
     box-sizing: border-box;
     padding: 1px 20px;
-    background-image: url("../img/background.png");
+    background-image: url("../assets/background.png");
     background-size: cover;
     margin: auto;
     margin-top: 150px;
@@ -20,13 +20,13 @@ a{
 }
 
 li#instagram{
-    list-style-image: url("../img/Insta.png");
+    list-style-image: url("../assets/Insta.png");
 }
 
 li#twitter{
-    list-style-image: url("../img/Twitter.png");
+    list-style-image: url("../assets/Twitter.png");
 }
 
 li#youtube{  
-    list-style-image: url("../img/Youtube.png");
+    list-style-image: url("../assets/Youtube.png");
 }

@@ -1,0 +1,34 @@
+div.container{
+    position: relative;
+    width: 640px;
+    height: 360px;
+}
+
+video#videoTeste{
+    width: 100%;
+}
+
+div.controls{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    text-align: center;
+    opacity: 0%;
+}
+
+div.controls:hover{
+    transition: 0.5s;
+    opacity: 100%
+}
+
+img.buttons{
+    position: relative;
+    top: 100%;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    transform: translatey(-100%);
+    background-color: rgba(240, 248, 255, 0.281);
+    border-radius: 40px;
+}
