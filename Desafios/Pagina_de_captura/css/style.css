@@ -25,7 +25,7 @@ h1.title{
 }
 
 section{
-    background-image: url('../img/people.jpg');
+    background-image: url('../assets/people.jpg');
     background-size: cover;
     padding: 20px;
     overflow: hidden;
@@ -64,7 +64,7 @@ select{
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    background-image: url('../img/arrow.jpg');
+    background-image: url('../assets/arrow.jpg');
     background-repeat: no-repeat;
     background-position: calc(100% - 10px) center;
 }

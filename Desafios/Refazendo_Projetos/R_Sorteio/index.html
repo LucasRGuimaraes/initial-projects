@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Sorteio Online</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sorteio Online</h1>
+        <h2>1. Primeiro registre os participantes:</h2>
+
+        <p class="dib">Nome:</p>
+        <input type="text" name="name" id="name" placeholder="Nome" required>
+        <p class="dib error" id="errorName">*CAMPO OBRIGATÓRIO*</p>
+        <br>
+
+        <p class="dib">Número Desejado:</p>
+        <input type="number" name="number" id="number" placeholder="Número Desejado" min="1" required>
+        <p class="dib error" id="errorNumber">*CAMPO OBRIGATÓRIO*</p>
+
+        <input type="submit" id="register" value="REGISTRAR" onclick="registrar()">
+
+
+        <h2>2. Realize o sorteio e veja o vencedor:</h2>
+        <input type="submit" value="SORTEAR" onclick="sortear()" id="sorteio">
+        <div id="resultado">
+
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
